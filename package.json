@@ -1,0 +1,25 @@
+{
+  "name": "script-injector",
+  "version": "0.0.1",
+  "description": "Inject inline javascript into an HTML stream.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "keywords": [
+    "html",
+    "stream",
+    "script",
+    "inject",
+    "injector",
+    "injection",
+    "parser"
+  ],
+  "author": "David Manning",
+  "license": "MIT",
+  "dependencies": {
+    "readable-stream": "~1.0.2",
+    "htmlparser2": "~3.0.5"
+  }
+}
