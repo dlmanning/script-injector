@@ -11,7 +11,7 @@
 
 ## How to use
 
-Just pipe a stream of html through script-injector. You can pass in either some stringified or a function object. What could be easier?
+Just pipe a stream of html through script-injector. You can pass in either some stringified code or a function object. What could be easier?
 
 ```javascript
 scriptInjector = require('script-injector');
