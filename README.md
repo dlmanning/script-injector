@@ -16,7 +16,7 @@ Just pipe a stream of html through script-injector. You can pass in either some 
 ```javascript
 scriptInjector = require('script-injector');
 
-\\ Then do something like this somewhere else
+// Then do something like this somewhere else
 
 fs.createReadStream('anHTMLFile')
   .pipe(scriptInjector(aFunction))
