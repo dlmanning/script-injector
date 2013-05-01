@@ -14,7 +14,7 @@
 Just pipe a stream of html through script-injector. You can pass in either some stringified or a function object. What could be easier?
 
 ```javascript
-scriptInjector = require('script-injector);
+scriptInjector = require('script-injector');
 
 \\ Then do something like this somewhere else
 
