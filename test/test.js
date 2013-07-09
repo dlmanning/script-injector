@@ -1,5 +1,5 @@
 var fs = require('fs')
-  , scriptInjector = require('../lib/script-injector');
+  , scriptInjector = require('../index');
 
 fs.createReadStream('./index.html')
   .pipe(scriptInjector(someCode))

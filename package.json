@@ -1,6 +1,6 @@
 {
   "name": "script-injector",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Inject inline javascript into an HTML stream.",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/dlmanning/script-injector.git"
-    },
+  },
   "keywords": [
     "html",
     "stream",
@@ -22,7 +22,8 @@
   "author": "David Manning",
   "license": "MIT",
   "dependencies": {
-    "readable-stream": "~1.0.2",
-    "htmlparser2": "~3.0.5"
+    "trumpet": "~1.5.0",
+    "through": "~2.3.4",
+    "duplexer": "~0.1.1"
   }
 }
