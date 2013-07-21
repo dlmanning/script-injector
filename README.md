@@ -1,7 +1,7 @@
 #script-injector
 
-1. provides a Transform stream that allows you to inject inline javascript into an html text stream.
-2. Uses Stream.Transform, but shims in [`readable-stream`](https://github.com/isaacs/readable-stream) if you're on node 0.8
+1. provides a through stream that allows you to inject inline javascript into an html text stream.
+2. Uses [`trumpet`](https://github.com/substack/node-trumpet) to parse your html.
 3. Should only be used for good, never for evil
 
 ## Installation
