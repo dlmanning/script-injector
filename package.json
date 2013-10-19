@@ -1,10 +1,10 @@
 {
   "name": "script-injector",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Inject inline javascript into an HTML stream.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test/test.js"
   },
   "repository": {
     "type": "git",
