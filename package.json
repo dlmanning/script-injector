@@ -1,6 +1,6 @@
 {
   "name": "script-injector",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Inject inline javascript into an HTML stream.",
   "main": "index.js",
   "scripts": {
