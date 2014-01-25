@@ -22,7 +22,7 @@
   "author": "David Manning",
   "license": "MIT",
   "dependencies": {
-    "trumpet": "~1.5.0",
+    "trumpet": "~1.6.3",
     "through": "~2.3.4",
     "duplexer": "~0.1.1"
   },
