@@ -1,6 +1,6 @@
 {
   "name": "script-injector",
-  "version": "0.1.7",
+  "version": "1.0.0",
   "description": "Inject inline javascript into an HTML stream.",
   "main": "index.js",
   "scripts": {
@@ -22,12 +22,12 @@
   "author": "David Manning",
   "license": "MIT",
   "dependencies": {
-    "trumpet": "~1.6.3",
-    "through": "~2.3.4",
-    "duplexer": "~0.1.1"
+    "duplexer2": "0.0.2",
+    "through2": "^0.6.5",
+    "trumpet": "^1.7.1"
   },
   "devDependencies": {
-    "tape": "~1.1.0",
-    "concat-stream": "~1.0.1"
+    "concat-stream": "^1.4.7",
+    "tape": "^3.5.0"
   }
 }
