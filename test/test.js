@@ -19,6 +19,7 @@ var testRunner = function (filename, t) {
 test('inject code before the closing body tag', testRunner.bind(null, 'test1'));
 test('inject code before the first script tag in the header', testRunner.bind(null, 'test2'));
 test('inject code before the first script tag in the body', testRunner.bind(null, 'test3'));
+test('inject code when there is no body tag', testRunner.bind(null, 'test4'));
 
 function someCode () {
   console.log("I'm some code to be inserted inline");
